@@ -124,6 +124,7 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
+
         binding.stopButton.setOnClickListener {
             locationManager.removeUpdates(locationListener)
         }
